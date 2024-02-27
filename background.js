@@ -2,6 +2,7 @@ browser.pageAction.onClicked.addListener((t,d) => onClick(t,d));
 browser.tabs.onUpdated.addListener(showPageAction);
 
 function showPageAction(tId, i, t){
+    if (!i.status == "complete") return;
     if (!t.url) return
 	if (t.url.includes('://github.dev')){
 		browser.pageAction.setIcon({ tabId: tId, path: { 64: "./github.svg" } });
