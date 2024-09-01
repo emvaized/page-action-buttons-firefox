@@ -1,6 +1,9 @@
-# <img src="./icon.svg" height="25" width="25"> Toggle Github.Dev
-<a href="https://addons.mozilla.org/firefox/addon/toggle-github-dev/"><img src="./screenshots/get-the-addon-129x45px.8041c789.png"></a>
+### Page action buttons for Firefox
 
-This simple Firefox addon adds a URL button to quickly toggle github.dev view of the repository. It shows "Switch to github.dev" button when you're on any "github.com" page, and vice verse. 
+Firefox has support for nice [page action buttons](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/user_interface/Page_actions), which are shown in the URL bar only on certain pages you define. 
 
-<img src="./screenshots/screenshot_1.png"> <img src="./screenshots/screenshot_2.png">
+In this repo I gathered some page actions which I came up with and created for personal use. Since addons for these are super small, I found it more handy to list them under single GitHub repository.
+
+### List
+- [Toggle Github.dev](./page-action-for-github-dev/)
+- [Open in Freedium](./page-action-for-freedium/)

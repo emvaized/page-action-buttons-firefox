@@ -1,0 +1,36 @@
+{
+	"manifest_version": 2,
+	"name": "Page action button for Freedium",
+	"description": "Adds a URL bar button to open Medium.com page in Freedium",
+	"version": "0.1",
+	"applications":{
+		"gecko": {
+			"id": "open_in_freedium_page_action@emvaized.dev"
+		}
+	},
+	"developer": {
+		"name": "Max Tsyba",
+		"url": "https://github.com/emvaized/"
+	},
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"icons": {
+		"64": "icon.svg"
+	},
+    "permissions": [
+        "*://medium.com/*"
+    ],
+	"page_action": {
+		"default_icon": "icon.svg",
+		"default_title": "Open in Freedium",
+        "show_matches": [
+            "*://medium.com/*"
+        ],
+        "hide_matches": [
+            "*://medium.com/m/*"
+        ]
+	}
+}
