@@ -22,7 +22,7 @@ function onClick(t,data){
         cur = '://github.com'; tar = '://github.dev'
     }
     if (data.button == 1)
-        chrome.tabs.create({url:t.url.replace(cur, tar), active: !data.modifiers[0]})
+        chrome.tabs.create({url:t.url.replace(cur, tar), active: !!data.modifiers[0]})
     else 
         chrome.tabs.update(t.id,{url:t.url.replace(cur, tar)})
 }
