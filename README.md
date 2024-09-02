@@ -5,5 +5,5 @@ Firefox has support for nice [page action buttons](https://developer.mozilla.org
 In this repo I gathered some page actions which I came up with and created for personal use. Since addons for these are super small, I found it more handy to list them under single GitHub repository.
 
 ### List
-- [Toggle Github.dev](./page-action-for-github-dev/)
-- [Open in Freedium](./page-action-for-freedium/)
+- [Toggle Github.dev](./toggle-github-dev/)
+- [Open in Freedium](./open-in-freedium/)
