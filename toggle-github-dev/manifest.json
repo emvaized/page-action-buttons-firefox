@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Toggle Github.Dev",
+	"name": "Page action button for Github.Dev",
 	"description": "Adds a URL bar button to switch to Github Dev view of the repository",
-	"version": "0.2",
+	"version": "0.2.1",
 	"applications":{
 		"gecko": {
 			"id": "toggle_github_dev@emvaized.dev"
